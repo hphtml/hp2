@@ -1,4 +1,4 @@
-<!doctype html><!doctype html>
+<!doctype html>
 <html lang="la">
   <head>
     <!-- Required meta tags -->
@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="bts-rep.css">
     
   </head>
   <body>
@@ -20,6 +20,7 @@
                 <li class="nav-item"><a href="#time" class="nav-link">1作目の作成にかかった時間</a></li>
                 <li class="nav-item"><a href="#time2" class="nav-link">2作目の作成にかかった時間</a></li>
                 <li class="nav-item"><a href="#la" class="nav-link">3作目のかかった時間</a></li>
+                <li class="nav-item"><a href="#la" class="nav-link">4作目のかかった時間</a></li>
               </ul>
             </nav>
           </div>
@@ -36,18 +37,23 @@
          background-size:cover;
         }
         </style>
+
       <div class="text-center py-5 text-white">
         <h1 class="mb-5 display-4">HP PART2</h1>
       
 
       
         <a href="https://hphtml.github.io/githb.io/" target="_blank">
-        <button class="btn bg-info text-white btn-lg">HP PART1はこちら</button>
+        <button class="btn bg-info text-white btn-lg">1作目はこちら</button>
         </a>
 
         <a href="https://hphtml.github.io/mosya-hp1/" target="_blank">
-          <button class="btn bg-info text-white btn-lg">模写したHPはこちら(3作目)</button>
+          <button class="btn bg-info text-white btn-lg">3作目はこちら</button>
           </a>
+
+          <a href="https://hphtml.github.io/mosya-hp1/" target="_blank">
+            <button class="btn bg-info text-white btn-lg">4作目はこちら</button>
+            </a>
       </div>
   　</div>
      <section>
@@ -57,8 +63,13 @@
          <div class="row">
            <div class="col-sm-8">
               <h3>1作目の特徴</h3>
-              <p>楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 
-                 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. </p>
+              <p>
+                  display: inline-block;<br>
+                  :nth-of-type(odd)<br>
+                  display: flex;<br>
+                  justify-content: space-between;<br>
+                  などを学習し、使用しました。
+                </p>
            </div>
            <div class="col-sm-4">
              <img src="phone.png" class="w-100 rounded-circle">
@@ -72,22 +83,55 @@
             <div class="col-sm-8 order-sm-2">
                <h3>2作目の特徴</h3>
                <p>楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 
-                  楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. </p>
+                  楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. <br><br>Bootstrapを使用して、様々なクラスを用いて、レスポンシブ化も体験してみました。</p>
             </div>
             <div class="col-sm-4 order-sm-1">
               <img src="movie.png" class="w-100 rounded-circle">
             </div>
           </div>
         </div>
+
+        <div class="container pt-5">
+         
+            <div class="row">
+              <div class="col-sm-8">
+                 <h3>3作目の特徴</h3>
+                 <p>dl<br>
+                    dt<br>
+                    ddの使用<br><br>
+                    ulを使い、floatを使用し、右上に左揃えを学習し、使用しました。
+                 </p>
+              </div>
+              <div class="col-sm-4">
+                <img src="phone.png" class="w-100 rounded-circle">
+              </div>
+            </div>
+          </div>
+
+        
+       <div class="container pt-5">
+         
+          <div class="row">
+            <div class="col-sm-8 order-sm-2">
+               <h3>4作目の特徴</h3>
+               <p>楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 
+                  楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい. 楽しい.楽しい. 楽しい. <br><br>見た目を意識しました。<br><br>cssリセットを使用しました。<br><br>overflow:scrollを使用しました。</p>
+            </div>
+            <div class="col-sm-4 order-sm-1">
+              <img src="movie.png" class="w-100 rounded-circle">
+            </div>
+          </div>
+        </div>
+
      </section>
 
      <div class="bg-success text-center my-5" id="time2">
        <div class="container" id="time">
          <table class="table table-hover">
            <thead>
-             <tr><th>1作目HP</th><th>2作目HP</th><th>３作目HP</th></tr>
+             <tr><th>1作目HP</th><th>2作目HP</th><th>３作目HP</th><th>4作目HP</th></tr>
                 <tbody>
-    　　　　　　　　<tr><td>7/10-7/21</td><td>8/17-8/20</td><td>8/22</td></tr>
+    　　　　　　　　<tr><td>7/10-7/21</td><td>8/17-8/20</td><td>8/22</td><td>8/28</td></tr>
                 </tbody>
 
            </thead>  
@@ -100,6 +144,7 @@
          <li class="nav-item"><a href="#one" class="nav-link active" data-toggle="tab">1作目詳細</a></li>
          <li class="nav-item"><a href="#two" class="nav-link" data-toggle="tab">2作目詳細</a></li>
          <li class="nav-item"><a href="#three" class="nav-link" data-toggle="tab">3作目詳細</a></li>
+         <li class="nav-item"><a href="#four" class="nav-link" data-toggle="tab">4作目詳細</a></li>
        </ul>
      
         <div class="tab-content" id="la">
@@ -110,12 +155,17 @@
             </div>
 
             <div id="two" class="tab-pane">
-                <p>2作目はBootstrapを学習し、HTML/CSSの基礎で作成
+                <p>2作目はBootstrapを学習し、レスポンシブを使用し作成
                 </p>
             </div>
 
             <div id="three" class="tab-pane">
                 <p>3作目はudemyを勉強し、HTML/CSSの基礎で作成
+                </p>
+            </div>
+
+            <div id="four" class="tab-pane">
+                <p>4作目はudemyを勉強し、HTML/CSSの基礎で作成
                 </p>
             </div>
         </div>
@@ -134,6 +184,10 @@
 
         <a href="https://hphtml.github.io/mosya-hp1/" target="_blank">
           <button class="btn bg-info text-white btn-lg">HP PART3はこちらから</button>
+        </a>
+
+        <a href="https://hphtml.github.io/sample/" target="_blank">
+          <button class="btn bg-info text-white btn-lg">HP PART4はこちらから</button>
         </a>
 
       </div>  
